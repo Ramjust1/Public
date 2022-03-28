@@ -10,11 +10,11 @@ public class ReverseArray {
 
 		for(int i=0; i<((a.length)/2 ); i++)
 		{
-			int h =a[(a.length-1)-i];
+			int h =a[(a.length-1)-i]; //Reverse array
 			a[(a.length-1)-i]=a[i];
 			a[i]=h;
 		}
 		System.out.println("Reverse Array : "+ Arrays.toString(a));
 	}
 
-}
+} 
